@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyerActivity"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        app:srcCompat="@drawable/buyerimg" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bhelp"
+        android:layout_below="@id/imageView3"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+    <LinearLayout
+        android:id="@+id/faq1"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/textView"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq1"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faq1a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq1a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/faq2"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq1a"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq2"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faq2a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@+id/faq2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq2a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/faq3"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq2a"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq3"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/faq3a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@+id/faq3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq3a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/faq4"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@+id/faq3a"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq4"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/faq4a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@+id/faq4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq4a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faq5"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq4a"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq5"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/faq5a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/qq5a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/contactus3"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq5a"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="95dp"
+        android:background="@drawable/color_button"
+        android:text="@string/conatct"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

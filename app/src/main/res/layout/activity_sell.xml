@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellActivity"
+    android:background="#fcfcfc">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/scrop"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp">
+
+
+            <ImageView
+                android:id="@+id/imageView_userIcon2"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary"
+                android:padding="8dp"
+                android:src="@drawable/img_user"
+                android:tint="@color/white" />
+
+
+            <EditText
+                android:id="@+id/sellTextName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/imageView_userIcon2"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView_userIcon2"
+                android:background="@color/editTextBG"
+                android:hint="@string/name"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/imageView_userIcon3"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary"
+                android:padding="8dp"
+                android:src="@drawable/ic_call_black_24dp"
+                android:tint="@color/white" />
+
+
+
+            <EditText
+                android:id="@+id/sellTextNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_userIcon3"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView_userIcon3"
+                android:background="@color/editTextBG"
+                android:hint="@string/dnumber"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp"
+                android:ems="10"
+                android:inputType="phone"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/imageView_userIcon4"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary"
+                android:padding="8dp"
+                android:src="@drawable/ic_add_circle_black_24dp"
+                android:tint="@color/white" />
+
+
+            <EditText
+                android:id="@+id/sellTextQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_userIcon4"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView_userIcon4"
+                android:background="@color/editTextBG"
+                android:hint="@string/sweight"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/relativeLayout3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/imageView_userIcon5"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary"
+                android:padding="8dp"
+                android:src="@drawable/ic_map_black_24dp"
+                android:tint="@color/white" />
+
+
+
+            <EditText
+                android:id="@+id/sellTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_userIcon5"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView_userIcon5"
+                android:background="@color/editTextBG"
+                android:hint="@string/daddress"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/relativeLayout4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+
+            <ImageView
+                android:id="@+id/imageView_userIcon6"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary"
+                android:padding="8dp"
+                android:src="@drawable/ic_shopping_cart_black_24dp"
+                android:tint="@color/white" />
+
+
+            <EditText
+                android:id="@+id/spinnerGenrescrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_userIcon6"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView_userIcon6"
+                android:background="@color/editTextBG"
+                android:hint="@string/sfood"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativeLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/relativeLayout5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+
+            <ImageView
+                android:id="@+id/imageView_userIcon7"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary"
+                android:padding="8dp"
+                android:src="@drawable/rupee"
+                android:tint="@color/white" />
+
+
+            <EditText
+                android:id="@+id/spinnerGenrescrop_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_userIcon7"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView_userIcon7"
+                android:background="@color/editTextBG"
+                android:hint="@string/sprice"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/relativeLayout6"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+
+            <Button
+                android:id="@+id/buttonAddCrop"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/normal_button"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/sbutton"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

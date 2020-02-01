@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FarmerActivity"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/farmingheader" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fhelp"
+        android:layout_below="@id/imageView3"
+        android:textAlignment="center"
+        android:layout_marginLeft="75dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:id="@+id/faq1"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/textView"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq1"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faq1a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq1a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/faq2"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq1a"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq2"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faq2a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@+id/faq2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq2a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/faq3"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq2a"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq3"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/faq3a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@+id/faq3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq3a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/faq4"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@+id/faq3a"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq4"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/faq4a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@+id/faq4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq4a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/faq5"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq4a"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq5"
+            android:padding="5dp"
+            android:textColor="@android:color/background_dark"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/faq5a"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_below="@id/faq5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="05dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/aqq5a"
+            android:padding="5dp"
+            android:textSize="13dp"
+            android:textColor="@android:color/holo_red_light"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/contactus2"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/faq5a"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="95dp"
+        android:background="@drawable/color_button"
+        android:text="@string/conatct"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

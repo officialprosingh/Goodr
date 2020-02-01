@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "240318061150",
+    "firebase_url": "https://goodr-1860c.firebaseio.com",
+    "project_id": "goodr-1860c",
+    "storage_bucket": "goodr-1860c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240318061150:android:af184c435d425f02",
+        "android_client_info": {
+          "package_name": "online.propaans.goodr.goodr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240318061150-hfr42bqcloaegmmt1t6nb8usfpdf7rvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "online.propaans.goodr.goodr",
+            "certificate_hash": "2bdb1a687e7ef889d00b535cc1f0ad626ac83452"
+          }
+        },
+        {
+          "client_id": "240318061150-gk5qmhm06ks4mifahhtmp9c5qm7jkq7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm9Y3EUh3kinyhLTCwevCG4MlJt1vAEJk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240318061150-gk5qmhm06ks4mifahhtmp9c5qm7jkq7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

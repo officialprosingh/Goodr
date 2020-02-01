@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Orientation"
+    android:background="#fcfcfc">
+
+
+    <TextView
+        android:text="Atif Aslam"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/sellViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:text="Number"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/sellViewNumber"
+        android:layout_width="match_parent"
+        android:layout_below="@id/sellViewName"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <TextView
+        android:text="Weight"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/sellViewQuantity"
+        android:layout_width="match_parent"
+        android:layout_below="@id/sellViewNumber"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <TextView
+        android:text="Address"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/sellViewAddress"
+        android:layout_width="match_parent"
+        android:layout_below="@id/sellViewQuantity"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:text="Price"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/sellViewPrice"
+        android:layout_width="match_parent"
+        android:layout_below="@id/sellViewAddress"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:text="Rock"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/sellViewGenre"
+        android:layout_width="match_parent"
+        android:layout_below="@id/sellViewPrice"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+
+
+
+
+</RelativeLayout>

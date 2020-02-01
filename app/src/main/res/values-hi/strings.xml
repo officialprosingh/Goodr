@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Goodr</string>
+    <string name="slogan"> एक अलग दुनिया बनाएँ</string>
+    <string name="thanks">आज कुछ भोजन दान करने और इस दुनिया को एक बेहतर स्थान बनाने के लिए धन्यवाद।
+</string>
+    <array name="genres">
+        <item name="rock">नाश्ता</item>
+        <item name="pop"> दोपहर का भोजन </item>
+        <item name="jazz">रात का खाना</item>
+
+    </array>
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="password"> पासवर्ड</string>
+    <string name="cacc">एक खाता बनाएँ!</string>
+    <string name="faq"> सामान्य प्रश्न</string>
+    <string name="language">भाषा बदलो</string>
+    <string name="join">JOIN GOODR</string>
+    <string name="signedup"> पहले से ही साइन अप!
+</string>
+    <string name="back">वापस जाओ</string>
+    <string name="share">इसे अपने दोस्तों के साथ साझा करें </string>
+
+    <string name="donator">खाद्य दान के साथ मदद चाहिए?</string>
+    <string name="buyerhelp">खरीद के साथ मदद की ज़रूरत है</string>
+
+    <string name="welcome">स्वागत हे</string>
+    <string name="sign">अभी साइनअप करें</string>
+    <string name="help">मदद की ज़रूरत है?</string>
+    <string name="swelcome">स्वागत हे</string>
+
+    <string name="input_error_name">नाम (जरूरी
+</string>
+<string name="input_error_email">ईमेल (अनिवार्य</string>
+<string name="input_error_password">पासवर्ड आवश्यक</string>
+<string name="input_error_phone">आवफ़ोन नंबरआवश्यक</string>
+<string name="input_error_password_length">पासवर्ड कम से कम 6 अक्षर लंबा होना चाहिए
+</string>
+<string name="input_error_phone_invalid">एक मान्य फ़ोन नंबर दर्ज करें</string>
+<string name="registration_success">सफलतापूर्वक पंजीकृत
+</string>
+<string name="input_error_email_invalid">एक वैध ईमेल प्रविष्ट करेंl</string>
+
+<string name="sold">मार्केट प्लेस में अपनी फसल को जोड़ने के लिए धन्यवाद, जल्द ही एक खरीदार आपसे संपर्क करेगा
+.</string>
+<string name="logout"> लॉग आउट</string>
+<string name="login"> लॉग इन करें</string>
+
+    ///Buy
+<string name="crops">बिक्री पर फसल</string>
+
+    //Confirm
+<string name="confirm">पुष्टीकरण</string>
+
+    ///Donate
+<string name="donate">अब भोजन दान करें
+</string>
+<string name="dname">नाम</string>
+<string name="dnumber">फ़ोन नंबर</string>
+<string name="dweight"> वजन</string>
+<string name="daddress"> पता</string>
+<string name="dfood">भोजन (नाश्ता, दोपहर का भोजन और रात का खाना)
+</string>
+<string name="dbutton">दान जोड़ें</string>
+
+    ///Food
+<string name="dlist"> दान की सूची</string>
+
+    ///Main
+<string name="msell">फसल बेचो</string>
+<string name="buy">फसलें और उर्वरक खरीदें</string>
+<string name="mfood">अन्न का दान करें
+</string>
+<string name="mfood2">खाना लेलो</string>
+<string name="faq2">यहाँ आपके सभी सवालों के जवाब मिलते हैं!</string>
+<string name="mearn">अधिक पैसा कमाने में मदद करें</string>
+<string name="mearn2">बेस्ट प्रॉफिट पाने के टिप्स पाएं।</string>
+
+
+    ///Sconfirm
+<string name="sadress">किसान का पता</string>
+<string name="price">कीमत</string>
+<string name="saccept">स्वीकार करना</string>
+
+
+    ///Sell
+<string name="scrop">अभी फसल बेचो</string>
+<string name="sweight">फसल का वजन</string>
+<string name="sfood">फसल का प्रकार (चावल या सफेद)</string>
+<string name="sprice">दाम पूछना</string>
+<string name="sbutton">फसल बेचो</string>
+
+    ///DIALog
+<string name="dcall">दाता को बुलाओ</string>
+<string name="difood">खाद्य मिला है</string>
+<string name="fcall">किसान को बुलाओ</string>
+<string name="fbrought">पहले से ही अलग है</string>
+
+    <string name="foodtype">खाद्य प्रकार</string>
+    <string name="farmerhelp">खेती के साथ मदद चाहिए</string>
+
+    ///FAQ
+    <string name="faqq1">एक दिन के भीतर मैं कितना दान कर सकता हूं या भोजन प्राप्त कर सकता हूं?</string>
+    <string name="faqq1a">उत्तर भोजन प्राप्त करने या दान करने के लिए कोई सीमा नहीं है</string>
+    <string name="faqq2">क्या मैं इस ऐप का उपयोग करके पैसे दान कर सकता हूं!</string>
+    <string name="faqq2a">उत्तर वर्तमान में इस ऐप का उपयोग करके, आप पैसे दान नहीं कर सकते।</string>
+    <string name="faqq3">क्या यह ऐप स्टोर करता है या उपयोगकर्ता की जानकारी बेचता है</string>
+    <string name="faqq3a">उत्तर नहीं, हम किसी भी प्रकार की उपयोगकर्ता जानकारी बेचते या संग्रहीत नहीं करते हैं</string>
+    <string name="faqq4">जिसे मेरा भोजन प्राप्त होगा</string>
+    <string name="faqq4a">उत्तर ऐसे एनजीओ या व्यक्ति जिनमें खाद्य की आवश्यकता है, इस ऐप से भोजन प्राप्त कर सकते हैं।</string>
+    <string name="faqq5">क्या होगा अगर भोजन अच्छी गुणवत्ता का नहीं है</string>
+    <string name="faqq5a">उत्तर यदि फूड मार्क तक नहीं है, तो आप खाद्य अधिकार को वापस लौटा सकते हैं!</string>
+    <string name="conatct">संपर्क करें</string>
+
+    ///Earn
+    <string name="earn1">क्या आप किसान हैं?</string>
+    <string name="earn2">क्या आप एक खरीदार हैं?</string>
+
+
+
+    <string name="aqq1">मैं अपनी फसल कितनी कीमत पर बेच सकता हूं?</string>
+    <string name="aqq1a">सभी मूल्य किसानों द्वारा तय किए जाते हैं, फिर भी सबसे कम कीमत वाले किसान पर अधिक ध्यान दिया जाएगा।</string>
+    <string name="aqq2">इस ऐप पर मैं कौन सी फसलें बेच सकता हूं?</string>
+    <string name="aqq2a">आप बेच सकते हैं - गेहूं, चावल, मक्का, जई, जौ और कोई भी अन्य सब्जियां।</string>
+    <string name="aqq3">क्या यह ऐप पूरे भारत में काम करता है?</string>
+    <string name="aqq3a">हाँ, गुड्र पूरे भारत में कार्यात्मक है।</string>
+    <string name="aqq4">फसल के परिवहन के लिए कौन जिम्मेदार है</string>
+    <string name="aqq4a">वर्तमान में, गुडर किसी भी परिवहन का समर्थन नहीं कर रहा है। हम सिर्फ दो दलों के बीच एक पुल के रूप में कार्य करते हैं।</string>
+    <string name="aqq5">क्या Goodr स्कैमर और फेक प्रोडक्ट लिस्टिंग के लिए कुछ कर रहा है</string>
+    <string name="aqq5a">हां, हमारी सहायता टीम मैन्युअल रूप से सभी उत्पाद सूची को देखें और नकली लिस्टिंग निकालें।</string>
+
+    <string name="qq1">भुगतान विधि क्या है?</string>
+    <string name="qq1a">गुडर, किसी भी भुगतान विधि का समर्थन नहीं कर रहा है। भुगतान विधि किसान और खरीदार दोनों पर निर्भर है।</string>
+    <string name="qq2">अगर मैं फसलें प्राप्त नहीं करता तो क्या गुडर जिम्मेदार है?</string>
+    <string name="qq2a">हम किसान और क्रेता के बीच सेतु का काम करते हैं, सभी परिवहन पूरी तरह से आप पर निर्भर हैं।</string>
+
+    <string name="qq3">क्या यह ऐप पूरे भारत में काम करता है?</string>
+    <string name="qq3a">हाँ, गुड्र पूरे भारत में कार्यात्मक है।</string>
+    <string name="qq4">फसल के परिवहन के लिए कौन जिम्मेदार है</string>
+    <string name="qq4a">वर्तमान में, गुडर किसी भी परिवहन का समर्थन नहीं कर रहा है। हम सिर्फ दो दलों के बीच एक पुल के रूप में कार्य करते हैं।</string>
+    <string name="qq5">क्या Goodr स्कैमर और फेक प्रोडक्ट लिस्टिंग के लिए कुछ कर रहा है</string>
+    <string name="qq5a">हां, हमारी सहायता टीम मैन्युअल रूप से सभी उत्पाद सूची को देखें और नकली लिस्टिंग निकालें।</string>
+
+
+
+    <string name="weather">मौसम प्राप्त करें</string>
+    <string name="weather2">आज जानिए बेस्ट फार्मिंग के लिए मौसम!</string>
+
+    <string name="bhelp">खरीदार की मदद?</string>
+    <string name="ddonation">दान का पता</string>
+    <string name="call">हमें कॉल करें</string>
+    <string name="website">हमारी वेबसाइट पर पधारें</string>
+    <string name="insta">हमसे संपर्क करें Instagram पर</string>
+    <string name="fhelp">खेती में मदद?</string>
+    <string name="cause">ए कॉज़ के लिए दान करें</string>
+    <string name="cause1">अन्न का दान करें क्योंकि जो पूरी दुनिया को प्रभावित कर रहा है</string>
+    <string name="causen1">नोट आप केवल पैक किए गए भोजन का दान कर सकते हैं</string>
+    <string name="causen2">भोजन (केवल पैक खाद्य पदार्थ)</string>
+    <string name="causen3">वर्तमान कारणों की जाँच करें</string>
+    <string name="d1">एनजीओ को भोजन दान करें</string>
+    <string name="help1">कोई मदद चाहिए</string>
+    <string name="learn">और अधिक जानें</string>
+    <string name="redeem">के एवज</string>
+    <string name="r1">यहां अपनी बातों को भुनाएं</string>
+</resources>
