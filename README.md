@@ -16,3 +16,7 @@ Anyone from the World Can Donate Food and Get in Touch with NGOs near them.No ot
 to Encourage them to Donate More Food and Easy Redeem Way so they can Get Their Money as Soon As Possible.Goodr is available 
 in 4+ Languages and Can be Made into all Indian Languages so Anyone in India Can Use the App.
 
+
+
+Visit Our PPT Here -
+https://docs.google.com/presentation/d/1mfgNIfapH6VlxPBjtilzGeUC4ZIGh4KeHyG4S0TMR30/edit?usp=sharing
